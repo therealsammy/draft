@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-void myFunction(char name[50]) {
+void myFunction(char name[30]) {
     printf("Hello %s", name);
 }
 
@@ -17,7 +17,7 @@ int main()
 }
 
 int myNum;
-char name[50];
+char name[30];
 
 printf("Enter your first name:\n");
 
